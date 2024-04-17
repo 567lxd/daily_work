@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T07:02:37.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hLYeaWXUoD4TvbVPPX-i" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T07:21:52.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="rIc1fpPo_SZk2-E5xRYI" version="24.2.2" type="github">
   <diagram name="第 1 页" id="jgk6TLI41gFWQYQwitnz">
-    <mxGraphModel dx="2567" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3794" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,7 +504,7 @@
           <mxGeometry x="-1070" y="1655" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2caM5ZW2NGvnum37pTTT-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1639" y="2421.88" width="690" height="688.12" as="geometry" />
+          <mxGeometry x="-1656.25" y="2413.44" width="690" height="688.12" as="geometry" />
         </mxCell>
         <mxCell id="2caM5ZW2NGvnum37pTTT-6" value="&lt;font data-sider-select-id=&quot;66cb3327-f222-4130-a8b8-7b737f186345&quot; style=&quot;font-size: 15px;&quot;&gt;激光点云地图构建更新及定位技术&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;整体架构&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1412.5" y="2430" width="250" height="30" as="geometry" />
@@ -678,8 +678,8 @@
         </mxCell>
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-132" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1640" y="2870" as="sourcePoint" />
-            <mxPoint x="-950" y="2870.5" as="targetPoint" />
+            <mxPoint x="-1657.5" y="2870" as="sourcePoint" />
+            <mxPoint x="-967.5" y="2870.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-134" value="云端" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -694,38 +694,47 @@
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-137" value="车3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1191.25" y="3050" width="72.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-142" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Wk8eWu7CTbSuLLYJRfCE-134">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1570" y="3050" as="sourcePoint" />
-            <mxPoint x="-1520" y="3000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-143" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Wk8eWu7CTbSuLLYJRfCE-134" target="Wk8eWu7CTbSuLLYJRfCE-137">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1260" y="2998" as="sourcePoint" />
-            <mxPoint x="-1064" y="2900" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-144" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Wk8eWu7CTbSuLLYJRfCE-134" target="Wk8eWu7CTbSuLLYJRfCE-136">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1240" y="2910" as="sourcePoint" />
-            <mxPoint x="-1120" y="3014" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-145" value="&lt;font data-sider-select-id=&quot;1eeda479-3238-4e5b-b6ed-8c1ea1de9e15&quot; style=&quot;font-size: 7px;&quot;&gt;增量地图交互&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1545" y="2980" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-146" value="&lt;font data-sider-select-id=&quot;1eeda479-3238-4e5b-b6ed-8c1ea1de9e15&quot; style=&quot;font-size: 7px;&quot;&gt;增量地图交互&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1394.99" y="2990" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-147" value="&lt;font data-sider-select-id=&quot;1eeda479-3238-4e5b-b6ed-8c1ea1de9e15&quot; style=&quot;font-size: 7px;&quot;&gt;增量地图交互&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1240.5" y="2980" width="100" height="30" as="geometry" />
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-145" value="&lt;span data-sider-select-id=&quot;5cc8946e-6c89-493d-8aa2-872667a84a48&quot; style=&quot;font-size: 8px;&quot;&gt;变化瓦片的点云上传&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-1591" y="2990" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-148" value="&lt;font data-sider-select-id=&quot;a558b2f5-cdbd-43c1-8b88-2ce050578114&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b data-sider-select-id=&quot;14817b5c-2c58-4a2b-907b-20923eb2bf9f&quot;&gt;云端地图更新模块&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1131.25" y="2490" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-150" value="&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;7378fdec-35eb-496c-80ea-ef87dbe071cc&quot;&gt;技术点：&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;7378fdec-35eb-496c-80ea-ef87dbe071cc&quot;&gt;①云端地图管理、下发&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;24456beb-949d-45f0-859d-a4f485ab1f4a&quot;&gt;②全局瓦片地图与增量点云地图融合，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;24456beb-949d-45f0-859d-a4f485ab1f4a&quot;&gt;根据增量地图完成对全局瓦片地图的更新，并完成下发&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="2520" width="190" height="30" as="geometry" />
+          <mxGeometry x="-1180" y="2530" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-152" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Wk8eWu7CTbSuLLYJRfCE-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1570" y="3050" as="sourcePoint" />
+            <mxPoint x="-1520" y="3000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-153" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Wk8eWu7CTbSuLLYJRfCE-134" target="Wk8eWu7CTbSuLLYJRfCE-135">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1380" y="2950" as="sourcePoint" />
+            <mxPoint x="-1330" y="2900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-154" value="&lt;font data-sider-select-id=&quot;001aaa27-d8e4-439d-a351-bcd6a3ff9c4e&quot; style=&quot;font-size: 8px;&quot;&gt;变化瓦片下发&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1490" y="3010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-156" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Wk8eWu7CTbSuLLYJRfCE-134" target="Wk8eWu7CTbSuLLYJRfCE-137">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1300" y="2955" as="sourcePoint" />
+            <mxPoint x="-1250" y="2905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-157" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Wk8eWu7CTbSuLLYJRfCE-137" target="Wk8eWu7CTbSuLLYJRfCE-134">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1333.75" y="3040" as="sourcePoint" />
+            <mxPoint x="-1283.75" y="2990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-158" value="&lt;span data-sider-select-id=&quot;5cc8946e-6c89-493d-8aa2-872667a84a48&quot; style=&quot;font-size: 8px;&quot;&gt;点云上传&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="-1265" y="3000" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-160" value="&lt;font data-sider-select-id=&quot;001aaa27-d8e4-439d-a351-bcd6a3ff9c4e&quot; style=&quot;font-size: 8px;&quot;&gt;变化瓦片下发&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="2990" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
