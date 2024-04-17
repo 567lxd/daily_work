@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T06:19:07.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="A5G1WypGeFy-RrM4WZ4p" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T06:22:02.807Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="aOIedi9BIHzJwEWh4WKl" version="24.2.2" type="github">
   <diagram name="第 1 页" id="jgk6TLI41gFWQYQwitnz">
     <mxGraphModel dx="2567" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -506,8 +506,8 @@
         <mxCell id="2caM5ZW2NGvnum37pTTT-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1640" y="2421.88" width="690" height="688.12" as="geometry" />
         </mxCell>
-        <mxCell id="2caM5ZW2NGvnum37pTTT-6" value="激光点云地图构建更新及定位技术&lt;div&gt;整体架构&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1381.25" y="2421.88" width="215" height="30" as="geometry" />
+        <mxCell id="2caM5ZW2NGvnum37pTTT-6" value="&lt;font data-sider-select-id=&quot;66cb3327-f222-4130-a8b8-7b737f186345&quot; style=&quot;font-size: 15px;&quot;&gt;激光点云地图构建更新及定位技术&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;整体架构&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1412.5" y="2430" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="2caM5ZW2NGvnum37pTTT-18" target="Wk8eWu7CTbSuLLYJRfCE-55">
           <mxGeometry relative="1" as="geometry" />
@@ -604,7 +604,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-66" value="&lt;font data-sider-select-id=&quot;7378fdec-35eb-496c-80ea-ef87dbe071cc&quot; style=&quot;font-size: 11px;&quot;&gt;①云端地图管理、下发&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;②全局地图与增量地图融合，根据增量地图完成对全局地图的更新&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-66" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1182.5" y="2490" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-67" value="&lt;font size=&quot;1&quot; style=&quot;&quot; data-sider-select-id=&quot;9f94194b-4627-4175-987e-f6ca4d9d5718&quot;&gt;&lt;b data-sider-select-id=&quot;3693fbb6-d1cf-421d-bc7f-e9e48df0ed42&quot; style=&quot;&quot;&gt;激光匹配定位模块&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
@@ -723,6 +723,9 @@
         </mxCell>
         <mxCell id="Wk8eWu7CTbSuLLYJRfCE-148" value="&lt;font data-sider-select-id=&quot;a558b2f5-cdbd-43c1-8b88-2ce050578114&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;b data-sider-select-id=&quot;14817b5c-2c58-4a2b-907b-20923eb2bf9f&quot;&gt;云端地图更新模块&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1131.25" y="2490" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wk8eWu7CTbSuLLYJRfCE-150" value="&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;7378fdec-35eb-496c-80ea-ef87dbe071cc&quot;&gt;技术点：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;7378fdec-35eb-496c-80ea-ef87dbe071cc&quot;&gt;①云端地图管理、下发&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;24456beb-949d-45f0-859d-a4f485ab1f4a&quot;&gt;②全局地图与增量地图融合，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; data-sider-select-id=&quot;24456beb-949d-45f0-859d-a4f485ab1f4a&quot;&gt;根据增量地图完成对全局地图的更新&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1172.5" y="2520" width="181.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
